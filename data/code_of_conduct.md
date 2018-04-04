@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "MWDLS Code Of Conduct"
+title:  "Code Of Conduct"
 date:   2015-04-18 08:43:59
 author: Ben Centra
 ---
