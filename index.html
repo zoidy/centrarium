@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="home">
+
+<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+    <header class="site-header">
+      <h1 class="title">{{ site.title }}</h1>
+      {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+    </header>
+  </div>
+</div>
+
+<h1>About Mountain West DLS</h1>
+<p>
+The Southeast Data Librarian Symposium is intended to provide a low-cost opportunity for librarians and other research data specialists to gather and explore developments in the field of data librarianship, including the management and sharing of research data.
+
+In addition to learning about new work in the field, attendees will have the opportunity to network and build partnerships with regional colleagues. It is open to all who wish to attend, including students, data managers and scientists, and those situated outside the Southeast. The meeting is styled after the successful Midwest Data Librarian Symposium, now in its fourth year.
+
+The program will consist of workshops and networking opportunities over a two day period. Topics covered may include data visualization; data sharing and re-use; data curation and preservation; and data literacy. Keep an eye out for a survey for interest in workshop topics.
+</p>
+
+</div>
